@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">你亂搞我打爆－立委熱線 </string>
+    <string name="version_no">1.0</string>
+    <string name="about_app">關於</string>
+    <string name="help_info">使用說明</string>
+    <string name="call_dist_legislator_value">聯絡所屬選區立委</string>
+    <string name="call_country_legislator_value">聯絡不分區立委</string>
+    <string name="call_other_dist_legislator_value">聯絡分區立委</string><string name="call_by_party">聯絡政黨立委</string><string name="call_by_committee">聯絡委員會立委</string><string name="call_history">過去聯絡紀錄</string><string name="exit">關閉本程式</string>
+    <string name="personal_setting">設定選區立委</string>
+    <string-array name="party_array"></string-array>
+    <string-array name="committee_array"></string-array>
+    <string-array name="legislator_array"></string-array>
+    <string-array name="current_dist_legislator_data"></string-array>
+    <string-array name="legislator_type_array">
+        <item >全國不分區</item>
+        <item >一般分區</item>
+        <item >平地原住民</item>
+        <item >山地原住民</item>
+        <item >僑居國外國民</item>
+    </string-array>
+    <string-array name="Party_List_array">
+        <item >無黨籍</item>
+        <item >中國國民黨</item>
+        <item >民主進步黨</item>
+        <item >台灣團結聯盟</item>
+        <item >親民黨</item>
+        <item >無黨團結聯盟</item>
+    </string-array>    
+    <string-array name="Committee_List_array">
+        <item >內政委員會</item>
+        <item >教育及文化委員會</item>
+        <item >外交及國防委員會</item>
+        <item >交通委員會</item>
+        <item >經濟委員會</item>
+        <item >司法及法制委員會</item>
+        <item >財政委員會</item>
+        <item >社會福利及衛生環境委員會</item>
+        <item >程序委員會</item>
+        <item >紀律委員會</item>
+        <item >修憲委員會</item>
+        <item >經費稽核委員會</item>
+    </string-array>    
+	<string-array name="Legislator_list_array">
+		<item>立委名單</item>
+	    <item>丁守中</item>
+		<item>孔文吉</item>
+		<item>尤美女</item>
+		<item>王廷升</item>
+		<item>王育敏</item>
+		<item>王金平</item>
+		<item>王惠美</item>
+		<item>王進士</item>
+		<item>田秋堇</item>
+		<item>江啟臣</item>
+		<item>江惠貞</item>
+		<item>何欣純</item>
+		<item>吳育仁</item>
+		<item>吳育昇</item>
+		<item>吳宜臻</item>
+		<item>吳秉叡</item>
+		<item>呂玉玲</item>
+		<item>呂學樟</item>
+		<item>李昆澤</item>
+		<item>李俊俋</item>
+		<item>李桐豪</item>
+		<item>李貴敏</item>
+		<item>李慶華</item>
+		<item>李應元</item>
+		<item>李鴻鈞</item>
+		<item>林佳龍</item>
+		<item>林岱樺</item>
+		<item>林明溱</item>
+		<item>林郁方</item>
+		<item>林國正</item>
+		<item>林淑芬</item>
+		<item>林滄敏</item>
+		<item>林德福</item>
+		<item>林鴻池</item>
+		<item>邱文彥</item>
+		<item>邱志偉</item>
+		<item>邱議瑩</item>
+		<item>姚文智</item>
+		<item>柯建銘</item>
+		<item>段宜康</item>
+		<item>洪秀柱</item>
+		<item>紀國棟</item>
+		<item>孫大千</item>
+		<item>徐少萍</item>
+		<item>徐欣瑩</item>
+		<item>徐耀昌</item>
+		<item>翁重鈞</item>
+		<item>馬文君</item>
+		<item>高志鵬</item>
+		<item>高金素梅</item>
+		<item>張嘉郡</item>
+		<item>張慶忠</item>
+		<item>許忠信</item>
+		<item>許添財</item>
+		<item>許智傑</item>
+		<item>陳其邁</item>
+		<item>陳怡潔</item>
+		<item>陳明文</item>
+		<item>陳亭妃</item>
+		<item>陳唐山</item>
+		<item>陳根德</item>
+		<item>陳淑慧</item>
+		<item>陳雪生</item>
+		<item>陳超明</item>
+		<item>陳節如</item>
+		<item>陳碧涵</item>
+		<item>陳歐珀</item>
+		<item>陳學聖</item>
+		<item>陳鎮湘</item>
+		<item>曾巨威</item>
+		<item>費鴻泰</item>
+		<item>黃文玲</item>
+		<item>黃志雄</item>
+		<item>黃昭順</item>
+		<item>黃偉哲</item>
+		<item>楊玉欣</item>
+		<item>楊應雄</item>
+		<item>楊曜</item>
+		<item>楊瓊瓔</item>
+		<item>楊麗環</item>
+		<item>葉宜津</item>
+		<item>葉津鈴</item>
+		<item>詹凱臣</item>
+		<item>廖正井</item>
+		<item>廖國棟</item>
+		<item>管碧玲</item>
+		<item>趙天麟</item>
+		<item>劉建國</item>
+		<item>劉櫂豪</item>
+		<item>潘孟安</item>
+		<item>潘維剛</item>
+		<item>蔡正元</item>
+		<item>蔡其昌</item>
+		<item>蔡煌瑯</item>
+		<item>蔡錦隆</item>
+		<item>蔣乃辛</item>
+		<item>鄭天財</item>
+		<item>鄭汝芬</item>
+		<item>鄭麗君</item>
+		<item>盧秀燕</item>
+		<item>盧嘉辰</item>
+		<item>蕭美琴</item>
+		<item>賴士葆</item>
+		<item>薛凌</item>
+		<item>謝國樑</item>
+		<item>簡東明</item>
+		<item>顏寬恒</item>
+		<item>魏明谷</item>
+		<item>羅明才</item>
+		<item>羅淑蕾</item>
+		<item>蘇清泉</item>
+		<item>蘇震清</item>
+	</string-array>
+    <string name="caption_LEGISLATOR_TYPE">選　區：</string>
+	<string name="content_LEGISLATOR_TYPE">所屬選區內容</string>
+    
+    <string name="by_name">依立委姓名</string>
+    <string name="by_legistor_dist">依立委選區</string>
+    <string name="previous_page">回上一畫面</string>
+    <string name="no_PARTY">無黨籍</string>
+    <string name="party_KMT">中國國民黨</string>
+    <string name="party_DDP">民主進步黨</string>
+    <string name="party_TSU">台灣團結聯盟</string>
+    <string name="party_PFP">親民黨</string>
+    <string name="party_NPSU">無黨團結聯盟</string>
+    <string name="caption_PARTY_NAME">政黨名稱</string>
+    <string name="icon_PARTY">政黨圖示</string>
+    
+	<string name="legist_disttype_0">一般分區</string>
+    <string name="legist_disttype_1">僑居國外國民</string>
+    <string name="legist_disttype_2">平地原住民</string>
+    <string name="legist_disttype_3">山區原住民</string>
+    
+	<string name="committee_0">內政委員會</string>
+    <string name="committee_1">教育及文化</string>
+    <string name="committee_2">外交及國防</string>
+    <string name="committee_3">交通委員會</string>
+    <string name="committee_4">經濟委員會</string>
+    <string name="committee_5">司法及法制</string>
+    <string name="committee_6">財政委員會</string>
+    <string name="committee_7">社福及衛環</string>
+    <string name="committee_8">程序委員會</string>
+    <string name="committee_9">紀律委員會</string>
+    <string name="committee_10">修憲委員會</string>
+    <string name="committee_11">經費稽核</string>
+    <string name="caption_COMMITTEE_NAME">委員會名稱</string>
+
+    
+	<string name="image_APP_LOGO">程式標誌影像</string>
+    <string name="caption_LEGISLATOR_NAME">立法委員姓名</string>
+    <string name="caption_OF_PARTY">政　黨：</string>
+    <string name="caption_OF_COMMITTEE">委員會：</string>
+    <string name="caption_OFFICE_AT_CONGRESS">國會辦公室</string>
+    <string name="caption_OFFICE_OF_SERVICES">各地服務處</string>
+    <string name="caption_TELEPHONE">電話：</string>
+	<string name="content_TELEPHONE">電話號碼內容</string>
+    <string name="caption_FAX">傳真：</string>
+	<string name="content_FAX">傳真號碼內容</string>
+    <string name="caption_ADDRESS">地址：</string>
+	<string name="content_ADDRESS">地址內容</string>
+    <string name="caption_EMAIL">電子信箱</string>
+	<string name="content_EMAIL">電子信箱內容</string>
+	<string name="caption_CALL_NOW">立即撥打</string>
+
+	<string name="setting_DONE">設定完成</string>
+	<string name="setting_BY_NAME">依立委姓名設定</string>
+	<string name="setting_DIST_BY_NAME">依立委姓名設定選區立委</string>
+	<string name="setting_BY_DIST">依立委選區設定</string>
+	<string name="setting_DIST_BY_DIST">依所屬選區設定選區立委</string>
+	<string name="setting_BY_ADDRESS">依本身戶籍地設定</string>
+	<string name="setting_DIST_BY_ADDRESS">依本身戶籍地設定選區立委</string>
+	
+	<string name="live_DOMESTIC">戶籍於國內</string>
+	<string name="live_ABRAOD">國內無戶籍</string>
+		
+	<string name="is_PLAIN_NATIVE">平地原住民</string>
+	<string name="is_MOUNT_NATIVE">山地原住民</string>
+	<string name="is_NORMAL">一般居民</string>
+
+	<string name="yourDistIs">您的選區是</string>
+	<string name="yourCurrentLegislatorIs">您的選區立委是</string>
+	
+	<string name="setting_DIST_SELECT_CITY">請選擇所在縣市</string>
+	<string name="setting_DIST_SELECT_DISTRICT">請選擇所在鄉鎮市區</string>
+	<string name="setting_DIST_SELECT_VILLAGE">請選擇所在村里</string>
+		
+</resources>

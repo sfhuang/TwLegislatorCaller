@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hsfsoft.civiltool.legislatorcaller"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+	
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="hsfsoft.civiltool.legislatorcaller.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ShowPartyLegislatorActivity"></activity>
+        <activity android:name="ShowLegislatorDataActivity"></activity>
+        <activity android:name="ShowCommitteeLegislatorActivity"></activity>
+        <activity android:name="ShowCountryLegislatorActivity"></activity>
+        <activity android:name="ShowDistLegislatorActivity"></activity>
+        <activity android:name="SettingDistLegislatorByNameActivity"></activity>
+        <activity android:name="SettingDistLegislatorExecuteActivity"></activity>
+        <activity android:name="SettingDistLegislatorByDistActivity"></activity>
+        <activity android:name="SettingDistLegislatorByAddressActivity"></activity>
+        <activity android:name="ShowCallHistoryActivity"></activity>
+        </application>
+</manifest>

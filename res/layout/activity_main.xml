@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:contentDescription="@string/image_APP_LOGO"
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tff_small" />
+
+        <Button
+            android:id="@+id/buttonCallDistLegislator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@+string/call_dist_legislator_value"
+            android:textSize="16sp"
+            android:onClick="callDistLegislator"
+			/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonCallOtherDistLegislator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@+string/call_other_dist_legislator_value"
+                android:textSize="17sp"
+                android:onClick="changeToDistLegislator" />
+
+            <Button
+                android:id="@+id/buttonCallCountryLegislator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@+string/call_country_legislator_value"
+                android:textSize="17sp"
+                android:onClick="changeToCountryLegislator" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/buttonCallByParty"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+                android:layout_weight="1"
+	            android:text="@+string/call_by_party"
+	            android:textSize="17sp"
+	            android:onClick="changeToByPartyLayout" />
+
+	        <Button
+	            android:id="@+id/buttonCallByCommittee"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+                android:layout_weight="1"
+	            android:text="@+string/call_by_committee"
+	            android:textSize="17sp"
+	            android:onClick="changeToByCommitteeLayout" />
+
+        </LinearLayout>        
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/buttonCallHistory"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+                android:layout_weight="1"
+	            android:text="@+string/call_history"
+	            android:textSize="17sp"
+	            android:onClick="changeToCallHistory" />
+
+	        <Button
+	            android:id="@+id/buttonPersonalSetting"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+                android:layout_weight="1"
+	            android:text="@+string/personal_setting"
+	            android:textSize="17sp"
+	            android:onClick="changeToPersonalSetting" />
+
+        </LinearLayout>
+	        	        
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@+string/exit"
+            android:textSize="17sp"
+            android:onClick="exitApp" />
+    </LinearLayout>
+
+</RelativeLayout>

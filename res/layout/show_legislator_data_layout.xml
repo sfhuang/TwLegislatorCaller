@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+ >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_APP_LOGO"
+            android:src="@drawable/tff_small" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1" >
+
+            <TextView
+                android:id="@+id/textviewLegislatorName"
+                android:layout_width="fill_parent"
+                android:layout_height="40sp"
+                android:gravity="center"
+                android:text="@string/caption_LEGISLATOR_NAME"
+                android:textSize="24sp" />
+
+            <TableRow
+                android:id="@+id/tablerowCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowParty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewOfParty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" 
+                    android:text="@string/caption_OF_PARTY" />
+
+                <TextView
+                    android:id="@+id/textviewPartyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" 
+                    android:text="@string/caption_PARTY_NAME" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableLegislatorType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewOfLegislatorType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" 
+                    android:text="@string/caption_LEGISLATOR_TYPE" />
+
+                <TextView
+                    android:id="@+id/textviewLegislatorTypeContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" 
+                    android:text="@string/content_LEGISLATOR_TYPE" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowCommittee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewOfCommittee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp" 
+                    android:text="@string/caption_OF_COMMITTEE" />
+
+                <TextView
+                    android:id="@+id/textviewCommitteeContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caption_COMMITTEE_NAME"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1" >
+
+            <TextView
+                android:id="@+id/textviewCongressOffice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bbddff"
+                android:gravity="center"
+                android:text="@string/caption_OFFICE_AT_CONGRESS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TableRow
+                android:layout_gravity="fill_horizontal"
+                android:id="@+id/tableRowTelCongressOffice"
+          		android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewTelCongress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            		android:textSize="18sp"
+                    android:text="@string/caption_TELEPHONE" />
+
+                <Button
+                    android:id="@+id/buttonDialNowCongress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0sp"
+                    android:gravity="center"
+                    android:text="@string/caption_CALL_NOW"
+                    android:textSize="18sp" />
+                
+                </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowFaxCongressOffice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewFaxCongress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            		android:textSize="18sp"
+                    android:text="@string/caption_FAX" />
+
+                <TextView
+                    android:id="@+id/textviewFaxCongressContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            		android:textSize="20sp"
+                    android:text="@string/content_FAX" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowAddCongressOffice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textviewAddCongress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            		android:textSize="18sp"
+                    android:text="@string/caption_ADDRESS" />
+
+                <TextView
+                    android:id="@+id/textviewAddCongressContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            		android:textSize="14sp"
+            		android:paddingBottom="5sp"
+					android:ellipsize="none"
+ 					android:scrollHorizontally="false"
+                    android:text="@string/content_ADDRESS" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textviewServiceOffice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bbddff"
+                android:gravity="center"
+                android:text="@string/caption_OFFICE_OF_SERVICES"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablelayoutServiceOffice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:shrinkColumns="1" >
+        </TableLayout>
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="exitThisActivity"
+            android:text="@+string/previous_page"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
