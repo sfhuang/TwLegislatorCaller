@@ -68,13 +68,13 @@ public class ShowLegislatorDataActivity extends Activity {
         	committeeCount = c.getCount();
         	String committeeString="";
         	for (int i=0;i<committeeCount;i++){
-        		if(c.getString(1).equalsIgnoreCase("1"))
-        		{
-        			committeeString = committeeString + "¡i¥l¡j";
-        		}
         		if(i>0)
         		{
         			committeeString = committeeString + "¡B";
+        		}
+        		if(c.getString(1).equalsIgnoreCase("1"))
+        		{
+        			committeeString = committeeString + "¡i¥l¡j";
         		}
        		committeeString = committeeString + committee_List[Integer.parseInt(c.getString(0))];
        		c.moveToNext();
