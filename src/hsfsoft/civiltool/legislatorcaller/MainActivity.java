@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
 		       	                	   }
 		       	                   });
 		       	                   tr.addView(b);
-		       	                   c.moveToNext();
+		       	                   c2.moveToNext();
 		       	                   showedCount++;
 	                    	   }
 	                       }
