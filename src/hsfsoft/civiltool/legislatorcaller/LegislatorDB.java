@@ -1919,6 +1919,8 @@ public class LegislatorDB extends SQLiteOpenHelper {
 					"calling_datetime TEXT NOT NULL," +
 					"called_number var NOT NULL," +
 					"app_instance_id INTEGER," +
+					"contact_feedback var," +
+					"synchronized INTEGER NOT NULL DEFAULT 0," +
 					"FOREIGN KEY(called_legislator_id) REFERENCES LEGISLATOR_DATA(legislator_id) ON UPDATE CASCADE ON DELETE CASCADE"+
 					");";
 			db.execSQL(sqlCALLING_RECORD);
