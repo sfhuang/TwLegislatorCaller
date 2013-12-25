@@ -1899,6 +1899,7 @@ public class LegislatorDB extends SQLiteOpenHelper {
 					"city_in_record INTEGER," +
 					"dist_in_record INTEGER," +
 					"village_in_record INTEGER," +
+					"app_instance_id INTEGER," +
 					"FOREIGN KEY(current_district_legislator_id) REFERENCES LEGISLATOR_DATA(legislator_id) ON UPDATE CASCADE ON DELETE SET NULL," +
 					"FOREIGN KEY(legislator_dist_id) REFERENCES LEGISLATOR_DIST_LIST(legislator_dist_id) ON UPDATE CASCADE ON DELETE SET NULL," +
 					"FOREIGN KEY(province_in_record) REFERENCES PROVINCE_LIST(province_id) ON UPDATE CASCADE ON DELETE SET NULL," +
@@ -1917,6 +1918,7 @@ public class LegislatorDB extends SQLiteOpenHelper {
 					"called_legislator_id INTEGER NOT NULL," +
 					"calling_datetime TEXT NOT NULL," +
 					"called_number var NOT NULL," +
+					"app_instance_id INTEGER," +
 					"FOREIGN KEY(called_legislator_id) REFERENCES LEGISLATOR_DATA(legislator_id) ON UPDATE CASCADE ON DELETE CASCADE"+
 					");";
 			db.execSQL(sqlCALLING_RECORD);
